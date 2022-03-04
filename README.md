@@ -1,5 +1,6 @@
 # vite-react-crx
 [本仓库](https://github.com/Mirrorgo/vite-react-crx)基于react,采用各种最新的技术开发chrome extension
+> 通用配置为master分支,我个人的习惯为mirrorgo分支
 ## 技术选型&开发环境
 * pnpm 6.31.0
   * 参见👉[pnpm](https://juejin.cn/post/6932046455733485575)
