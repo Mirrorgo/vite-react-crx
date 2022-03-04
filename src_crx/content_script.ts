@@ -1,3 +1,4 @@
+export {};
 const contentScriptRoot = document.createElement("div");
 contentScriptRoot.id = "content-script-root"; //正式上线时,这个名称需要更加复杂且可读,比如加上插件名称
 document.body.appendChild(contentScriptRoot);

@@ -5,6 +5,12 @@ import copy from "rollup-plugin-copy";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  resolve: {
+    alias: {
+      base: resolve(__dirname, "./src_global/components/base"),
+      basic: resolve(__dirname, "./src_global/components/basic"),
+    },
+  },
   plugins: [
     react(),
     copy({
