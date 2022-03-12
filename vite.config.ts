@@ -24,8 +24,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        popup: resolve(__dirname, "/src_crx/popup.html"),
-        options: resolve(__dirname, "/src_crx/options.html"),
+        popup: resolve(__dirname, "/src_crx/src_popup/index.html"),
+        options: resolve(__dirname, "/src_crx/src_options/index.html"),
         "src_crx/service_worker": "/src_crx/service_worker.ts",
         "src_crx/content_script": "/src_crx/content_script.ts",
         "src_crx/src_content_script/main":
