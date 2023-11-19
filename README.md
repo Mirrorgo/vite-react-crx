@@ -1,3 +1,4 @@
+ 中文 | [English](./README-en_US.md)
 # vite-react-crx
 [本仓库](https://github.com/Mirrorgo/vite-react-crx)基于react,采用各种最新的技术开发chrome extension
 > 通用配置为master分支,我个人的习惯为mirrorgo分支
